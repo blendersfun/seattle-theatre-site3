@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
     <script type="text/javascript">
      window.onload = function () {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://localhost:8001', true);
+        xhr.open('GET', '/api', true);
         xhr.send();
         xhr.addEventListener('load', function () {
             var rows = JSON.parse(xhr.responseText);
