@@ -1,0 +1,17 @@
+{
+  "name": "seattle-theatre-site",
+  "version": "0.1.0",
+  "description": "A website for finding local theatre productions in Seattle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Aaron Moore <two.a.ron@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.x.x",
+    "mysql": "2.x.x",
+    "cors": "2.x.x"
+  }
+}

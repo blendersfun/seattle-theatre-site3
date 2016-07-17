@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+ db:
+  build: db
+  volumes:
+   - data:/var/lib/mysql
+
+ api:
+  build: api
+  ports:
+   - "8001:3000"
+  links:
+   - db
+
+ web:
+  build: web
+  ports:
+   - "8002:3000"
+
+volumes:
+  data:
