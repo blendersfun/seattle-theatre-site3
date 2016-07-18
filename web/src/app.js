@@ -23,7 +23,7 @@
                I deployed this manually by button clicking in the jekins job.
             </p>
             <p>
-               This change was loaded up instantly in the dev environment via webpack dev server.
+               This change was loaded up instantly in the dev environment via webpack dev server. Thing!
             </p>
             <table>
                 <tr><th>Theatre Name</th><th>Aaron's Short Descrpition</th></tr> 
