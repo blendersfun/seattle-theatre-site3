@@ -12,7 +12,7 @@
                 return acc + `
                     <tr>
                         <td>${curr.name}</td>
-                        <td>${curr.aarons_short_description}</td>
+                        <td>${curr.aarons_description}</td>
                     </tr>`; 
             }, '');
 
@@ -22,6 +22,9 @@
                    This is a proof of concept for deployment of a multi-container docker application to EC2.
                    The following table is retrieved from a service request to a json API layer. That, in turn
                    makes a DB query to get the info.
+                </p>
+                <p>
+                   I deployed this manually by button clicking in the jekins job.
                 </p>
                 <table>
                     <tr><th>Theatre Name</th><th>Aaron's Short Descrpition</th></tr> 
