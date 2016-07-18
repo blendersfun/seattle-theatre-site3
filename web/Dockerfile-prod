@@ -1,0 +1,3 @@
+FROM node:4-onbuild
+RUN ./node_modules/.bin/webpack
+EXPOSE 3000

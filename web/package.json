@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "./start.sh"
   },
   "author": "Aaron Moore <two.a.ron@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "express": "4.x.x"
+  },
+  "devDependencies": {
+    "webpack": "1.x.x",
+    "webpack-dev-server": "1.x.x"
   }
 }

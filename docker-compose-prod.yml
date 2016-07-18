@@ -12,11 +12,11 @@ services:
    - db
 
  web:
-  build: web
-  volumes:
-    - ./web:/usr/src/app
+  build: 
+   context: ./web
+   dockerfile: Dockerfile-prod
   environment:
-    NODE_ENV: development
+    NODE_ENV: production
  
  nginx:
   build: nginx
